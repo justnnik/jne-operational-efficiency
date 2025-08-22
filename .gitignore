@@ -1,22 +1,7 @@
-# macOS
-.DS_Store
-
-# Python
+.gitignore
+echo ".DS_Store
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.sqlite3
-
-# Virtual environment
-.env
 .venv/
-ENV/
-env/
-venv/
-
-# Jupyter Notebook
 .ipynb_checkpoints/
-
-# VSCode
-.vscode/
+.vscode/" >> .gitignore
